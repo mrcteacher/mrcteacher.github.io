@@ -1109,7 +1109,7 @@
       "url": "_framework\/MRCTeacher.Shared.dll"
     },
     {
-      "hash": "sha256-nuaBlQym9tgxkEjLGb9VO3SEfMT7\/BvySq4qIV8pCwM=",
+      "hash": "sha256-qL3oCJ5ACsjdzIVx+m9j8BuzA7NjtLJT0+SklBPG0nw=",
       "url": "_framework\/MRCTeacher.dll"
     },
     {
@@ -1201,7 +1201,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-2ysR9Og82EjgExPQGie5g65JT7eA2nkYFop5gZPHvH4=",
+      "hash": "sha256-lLioHHCeIBvo5VQ6ZpE9dFoRgoBd\/nCvzzY3+g2Yil0=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1209,5 +1209,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "McFLTY4y"
+  "version": "ZDLoUgty"
 };
