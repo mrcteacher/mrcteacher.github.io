@@ -353,7 +353,7 @@
       "url": "etline\/style.css"
     },
     {
-      "hash": "sha256-qU+KhVPK6oQw3UyjzAHU4xjRmCj3TLZUU\/+39dni9E0=",
+      "hash": "sha256-Pb1Mb66oa8sllxFndjUyPR\/fnezrafs2rVbAc8oyfMo=",
       "url": "favicon.ico"
     },
     {
@@ -497,7 +497,7 @@
       "url": "img\/shop-img\/17.jpg"
     },
     {
-      "hash": "sha256-pgJHq10pfNzWHvLbhorTYobDV6ruz1HfsRM7GGQtfKg=",
+      "hash": "sha256-U9O+Gy214tNbDbI0oxVRkJdL1huhKpAkii0HMqY6TUs=",
       "url": "index.html"
     },
     {
@@ -1105,11 +1105,11 @@
       "url": "_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-kKBD3XozcUFm+od7xe+s7pXHcPG6h9K8OATLp5oZt2s=",
+      "hash": "sha256-3s7A+4TOPP9tvotvhfuHiySz9PK9I0k8bFidXI74hUo=",
       "url": "_framework\/MRCTeacher.Shared.dll"
     },
     {
-      "hash": "sha256-qL3oCJ5ACsjdzIVx+m9j8BuzA7NjtLJT0+SklBPG0nw=",
+      "hash": "sha256-sdBw\/S50hQAB6DeNn9\/Pq1g2EZYInw9cPKu9WhdIP5Y=",
       "url": "_framework\/MRCTeacher.dll"
     },
     {
@@ -1137,7 +1137,7 @@
       "url": "_framework\/System.ComponentModel.Primitives.dll"
     },
     {
-      "hash": "sha256-nzPYR1OmpERv\/KxLBa3BOZX9RBVUNjH1s7oFuF9O2no=",
+      "hash": "sha256-banErRIiBWD6neqq0zHRQnCnoqV9C4LhkxhQ3WBWkUE=",
       "url": "_framework\/System.ComponentModel.TypeConverter.dll"
     },
     {
@@ -1161,7 +1161,7 @@
       "url": "_framework\/System.Net.Http.Json.dll"
     },
     {
-      "hash": "sha256-EDpY40JAmrqNe8WJvC+B42cHUFBlO1Fd0AwTxQCzVEc=",
+      "hash": "sha256-0dN8v1vUeyiI9VBg13cQOz03mttRglnveP6Ph+Acdlc=",
       "url": "_framework\/System.Net.Http.dll"
     },
     {
@@ -1197,11 +1197,11 @@
       "url": "_framework\/System.Text.Json.dll"
     },
     {
-      "hash": "sha256-BJ+Jrkt\/AkKotU28\/6jp3nDrI38jQWOpfjD65ZCLjRA=",
+      "hash": "sha256-9\/ntzWh\/6lOHu6+VWilnziVRBrDhrzelYdaJaJZCuCc=",
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-lLioHHCeIBvo5VQ6ZpE9dFoRgoBd\/nCvzzY3+g2Yil0=",
+      "hash": "sha256-0nOxHjACMlhApG5A0NxQK9i+\/YZbinePTs+Y7v69kCM=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1209,5 +1209,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "ZDLoUgty"
+  "version": "SJOshaik"
 };
