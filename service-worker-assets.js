@@ -357,134 +357,6 @@
       "url": "favicon.ico"
     },
     {
-      "hash": "sha256-WaGbCZAq+OjNkGdsBLXsWUA4AK\/AAO56E4vOHIcK5+I=",
-      "url": "fonts\/boxicons.eot"
-    },
-    {
-      "hash": "sha256-1PJuuVyxzP3AnoQtPae0ZXe9EUYz+hnfGhbOqZIZJWg=",
-      "url": "fonts\/boxicons.ttf"
-    },
-    {
-      "hash": "sha256-pzpDSRegDawyY+eNFt6zvB9ti5az\/wmzKy03jQslSns=",
-      "url": "fonts\/boxicons.woff"
-    },
-    {
-      "hash": "sha256-NmhDiGSIeXw37tFWb035T7oCOyUKpQoIHPtsMp5Ra4s=",
-      "url": "fonts\/boxicons.woff2"
-    },
-    {
-      "hash": "sha256-aChZ9Ko2ZoLxDmcVvvK91OnBuaqozUy1Ezq+81vqDUQ=",
-      "url": "fonts\/boxiconsd41d.svg"
-    },
-    {
-      "hash": "sha256-e\/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=",
-      "url": "fonts\/fontawesome-webfont3e6e.eot"
-    },
-    {
-      "hash": "sha256-rWFXkmwWIrpOHQPUePFUE2hSS\/xG9R5C\/g2UX37zI+Q=",
-      "url": "fonts\/fontawesome-webfont3e6e.svg"
-    },
-    {
-      "hash": "sha256-qljzPyOaD7AvXHpsRcBD16msmgkzNYBmlOzW1O3A1qg=",
-      "url": "fonts\/fontawesome-webfont3e6e.ttf"
-    },
-    {
-      "hash": "sha256-ugxZ3rVFD1y0Gz+TYJ7i0NmVQVh33foiPoqKdTNHTwc=",
-      "url": "fonts\/fontawesome-webfont3e6e.woff"
-    },
-    {
-      "hash": "sha256-Kt78vAQefRj88tQXh53FoJmXqmTWdbejxLbOM9oT8\/4=",
-      "url": "fonts\/fontawesome-webfont3e6e.woff2"
-    },
-    {
-      "hash": "sha256-e\/yrbbmdXPvxcFygU23ceFhUMsxfpBu9etDwCQM7KXk=",
-      "url": "fonts\/fontawesome-webfontd41d.eot"
-    },
-    {
-      "hash": "sha256-CXCIEUWuzOdmiQkUD8L1UsaAAHwUeQW65r+H0Pyp32w=",
-      "url": "fonts\/lgd41d.eot"
-    },
-    {
-      "hash": "sha256-CXCIEUWuzOdmiQkUD8L1UsaAAHwUeQW65r+H0Pyp32w=",
-      "url": "fonts\/lgd641.eot"
-    },
-    {
-      "hash": "sha256-6JZQ3jsOqesfA\/gNoHmWOpf5SwUKetaLYYdss0uLPow=",
-      "url": "fonts\/lgd641.svg"
-    },
-    {
-      "hash": "sha256-XDy4tHgOcDdHk4HNpvZAuxLFa1yNwBBLA97AKUruwOY=",
-      "url": "fonts\/lgd641.ttf"
-    },
-    {
-      "hash": "sha256-eOVYlk9qTUlw2tVbxTv2p83AQ30ijuLGC8bR3J4L7v0=",
-      "url": "fonts\/lgd641.woff"
-    },
-    {
-      "hash": "sha256-GKRb4uy2bOIXw7vM8hn4vcBdx21hpuY2cxhu\/Rx82ho=",
-      "url": "fonts\/Material-Design-Iconic-Fontd1f1.ttf"
-    },
-    {
-      "hash": "sha256-fHTBNolTUOknv2n+n8ufM\/6frmNAcJ1uxPjLg4qUcKM=",
-      "url": "fonts\/Material-Design-Iconic-Fontd1f1.woff"
-    },
-    {
-      "hash": "sha256-6O6pbimnwKcmEquFyjIpl5ZmRnooNJZCwhducYmho5w=",
-      "url": "fonts\/Material-Design-Iconic-Fontd1f1.woff2"
-    },
-    {
-      "hash": "sha256-2YlpIjea63KaZ8S8EvKlHulww36gee4w+Fb9KAf9Ppw=",
-      "url": "fonts\/Pe-icon-7-strokebb1d.eot"
-    },
-    {
-      "hash": "sha256-xQj1o0q6dtpV13rZlrr0CVtum2SzVWbjZX5fc\/GSFBc=",
-      "url": "fonts\/Pe-icon-7-strokebb1d.svg"
-    },
-    {
-      "hash": "sha256-mWIN7RxNYSd2MEIhRuJIixr675vi3Akk\/z914uzXGCA=",
-      "url": "fonts\/Pe-icon-7-strokebb1d.ttf"
-    },
-    {
-      "hash": "sha256-b7QhcEjzM+I+D9C6KrBeBf11APhqWoCnzwSi+Usle+w=",
-      "url": "fonts\/Pe-icon-7-strokebb1d.woff"
-    },
-    {
-      "hash": "sha256-2YlpIjea63KaZ8S8EvKlHulww36gee4w+Fb9KAf9Ppw=",
-      "url": "fonts\/Pe-icon-7-stroked41d.eot"
-    },
-    {
-      "hash": "sha256-zaUtcKrd84fs4pihkMIWZ4SmfYnEDwrnJZs\/x0rOu2I=",
-      "url": "fonts\/summernotec360.eot"
-    },
-    {
-      "hash": "sha256-rJHVbGbpS9eeToER51qUV6LB4yrCyaYvatxBi3HqYkI=",
-      "url": "fonts\/summernotec360.ttf"
-    },
-    {
-      "hash": "sha256-4X3J\/zo4VTImx5Qe9yIQKkWqRFV9L8zmU8ZQwIX3vMU=",
-      "url": "fonts\/summernotec360.woff"
-    },
-    {
-      "hash": "sha256-3\/QV2uyRG2Xcpb4CBxoYJbdVCP8VjeW42Fl2lX25Mcs=",
-      "url": "fonts\/themify9f24.eot"
-    },
-    {
-      "hash": "sha256-968uCWyFwu1vaLsIb3ksZ\/KmBBy7gU\/CeWkSsu70\/nY=",
-      "url": "fonts\/themify9f24.svg"
-    },
-    {
-      "hash": "sha256-NQZjpGZeAAcsaKh60\/oL5HuKkUJBJ\/Xz4J9mQZcpXwE=",
-      "url": "fonts\/themify9f24.ttf"
-    },
-    {
-      "hash": "sha256-DbXFoUdet6PlAomD6h5kLRssAPr\/aiUKN1ArDzgypKc=",
-      "url": "fonts\/themify9f24.woff"
-    },
-    {
-      "hash": "sha256-3\/QV2uyRG2Xcpb4CBxoYJbdVCP8VjeW42Fl2lX25Mcs=",
-      "url": "fonts\/themifyd41d.eot"
-    },
-    {
       "hash": "sha256-+RMwsQk9RqiqDCXpbJ7tpdiOECP6Nvz3ZAtqmaFapB0=",
       "url": "icon-512.png"
     },
@@ -1109,7 +981,7 @@
       "url": "_framework\/MRCTeacher.Shared.dll"
     },
     {
-      "hash": "sha256-7+z1vpVazJcDZ4ncGvU+38iGllKsMxX43Db37GUlXhU=",
+      "hash": "sha256-1XEKaPM+drjVQPThgnrSMnX154qIEG5cWfG6Rpja70Y=",
       "url": "_framework\/MRCTeacher.dll"
     },
     {
@@ -1201,7 +1073,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-UshVAg1Sud0FCthFkeQSFEMydkPYGDXLu9IHZlCKRK0=",
+      "hash": "sha256-IJc65Z8NC1h+L0iBccvt8Z5tlBlDlwl73VASiSsThao=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -1209,5 +1081,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "SiIsQ8aX"
+  "version": "StudcqrW"
 };
