@@ -1,0 +1,211 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>MRC - Teacher Leave Management System</title>
+    <base href="/" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/my/Custom.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet">
+    <link href="manifest.json" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/img/logomrc.png" />
+    <link rel="icon" href="/img/logomrc.png" type="image/png">
+
+
+    <meta name="google-signin-client_id"
+        content="902732090134-keap6f1jnaf1k0hhj01ht9p0metsldlv.apps.googleusercontent.com">
+
+
+    <script src="https://apis.google.com/js/platform.js"></script>
+
+
+    <script>
+        function onSignIn(googleUser) {
+            var profile = googleUser.getBasicProfile();
+            console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+            console.log('Name: ' + profile.getName());
+            console.log('Image URL: ' + profile.getImageUrl());
+            console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+
+
+        }
+
+        document.GoogleSignInJSInt = () => {
+
+            auth2 = gapi.auth2.init();
+
+            if (auth2.isSignedIn.get()) {
+                var usr = auth2.currentUser.get();
+                var id_token = usr.getAuthResponse().id_token;
+                var profile = usr.getBasicProfile();
+                console.log('ID: ' + profile.getId());
+                console.log('Full Name: ' + profile.getName());
+                console.log('Given Name: ' + profile.getGivenName());
+                console.log('Family Name: ' + profile.getFamilyName());
+                console.log('Image URL: ' + profile.getImageUrl());
+                console.log('Email: ' + profile.getEmail());
+                console.log('id_token: ' + id_token);
+                console.log("-----------");
+                
+                return id_token;
+            }
+            else {
+                return "FALSE";
+            }
+            return "FALSE";
+
+
+
+        }
+
+        function onFailure(error) {
+            console.log(error);
+        }
+
+
+        document.renderGoogleButton = () => {
+            gapi.signin2.render('my-signin2', {
+                'longtitle': true,
+                'onsuccess': onSignIn,
+                'onfailure': onFailure
+            });
+        }
+
+    </script>
+</head>
+
+<body style="overscroll-behavior-y: contain; ">
+    <app>
+        <div style="width: 100%;padding-top: 14vh;height: 100vh">
+            <center style="width:100%">
+                <div
+                    class="card-header border-none bg-transparent d-flex align-items-center justify-content-between p-0 mb-10">
+                    <div class="widgets-card-title" style="width: 100%">
+                        <h5 class="card-title mb-0">&diams; Mahinda Rajapaksha College &diams;</h5>
+                        <h6 class="card-title mb-0">Homagama</h6>
+                        <h3 class="breadcrumb-item active mb-0 font-13" style="width:100%">Teacher Leave Management
+                            System</h3>
+                    </div>
+                </div>
+                <div class="loadImg"
+                    style="background-image: url('img/logomrc.png');background-repeat:no-repeat;background-position:center;background-size:contain">
+                </div>
+                <div class="fixed-bottom">
+                    <div class="spinner-border text-danger mb-30" role="status"></div>
+                </div>
+            </center>
+        </div>
+    </app>
+
+    <div id="blazor-error-ui">
+        <div class="modal fade show" role="dialog" tabindex="-1"
+            style="display: block; background-color:rgba(0, 0, 0,0.7);z-index: 1080;" aria-modal="true">
+            <div class="modal-dialog modal-dialog-centered modal-sm">
+                <div class="modal-content bg-danger">
+                    <div class="modal-body">
+                        <center>
+                            <h5 class="modal-title">Opps!</h5>
+                            <hr />
+                            <h6>An Unhandled Error Has Occurred.</h6>
+                            <hr />
+                            <a href="" class="reload btn btn-rounded btn-success mb-2">Reload</a>
+                            <a class="dismiss btn btn-rounded btn-warning mb-2">Ignore & Continue</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bundle.js"></script>
+    <script src="js/default-assets/setting.js"></script>
+    <script src="js/default-assets/fullscreen.js"></script>
+    <script>
+        function searchTable() {
+            // Declare variables
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    txtValue = td.textContent || td.innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        window.ShowModal = async (id) => {
+            $(id).modal('show');
+        }
+        window.HideModal = async (id) => {
+            $(id).modal('hide');
+        }
+        window.ShowCollapse = async (id) => {
+            $(id).collapse('show');
+        }
+        window.HideCollapse = async (id) => {
+            $(id).collapse('hide');
+        }
+    </script>
+
+    <script>
+        window.OpenNew = (args) => {
+            window.open(args);
+        };
+
+        window.SetCookie = (name, value) => {
+            document.cookie = name + "=" + (value || "") + "; path=/";
+        }
+        window.GetCookie = (name) => {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return null;
+        }
+        window.EraseCookie = (name) => {
+            document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        }
+
+
+        window.SetWebStore = (name, value) => {
+            localStorage.setItem(name, value);
+        }
+
+        window.GetWebStore = (name) => {
+            return localStorage.getItem(name);
+        }
+
+        window.EraseWebStore = (name) => {
+            return localStorage.removeItem(name);
+        }
+
+    </script>
+
+
+
+    <!-- Active JS -->
+    <script src="js/default-assets/active.js"></script>
+
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+</body>
+
+</html>
